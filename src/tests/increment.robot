@@ -1,6 +1,6 @@
 *** Settings ***
 Resource  resource.robot
-Suite Setup  Open And Configure Browser
+Suite Setup  Run Keywords  Open And Configure Browser  AND  Reset Counter
 Suite Teardown  Close Browser
 
 *** Test Cases ***
